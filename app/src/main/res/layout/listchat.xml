@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.06"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:background="#aeaeae"/>
+
+    <LinearLayout
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:background="#aeaeae"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:background="#aeaeae"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/nama_pengirim"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:text="kosongan"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kosong"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pesan"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
